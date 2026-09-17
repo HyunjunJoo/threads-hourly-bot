@@ -9,7 +9,7 @@ ACCESS_TOKEN = os.environ["THREADS_ACCESS_TOKEN"]
 
 
 # 게시할 글
-text = "Squak!"
+text = "Squawk!"
 
 response = requests.post(
     "https://graph.threads.net/v1.0/me/threads",
