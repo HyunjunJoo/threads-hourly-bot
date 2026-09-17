@@ -3,12 +3,6 @@ name: Threads Hourly Post
 on:
   workflow_dispatch:
 
-  push:
-
-    branches:
-
-      - main
-
   schedule:
     - cron: "*/5 * * * *"
       timezone: "Asia/Seoul"
